@@ -1,0 +1,1123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #f5f5f5;
+    font-size: 12px;
+    overflow-x: hidden;
+}
+.header-top {
+    position: absolute;
+    width: 1440px;
+    height: 117px;
+    left: 0px;
+    top: 0px;
+    background: #FFC107;
+    box-shadow: 0px 4px 4px rgb(206, 102, 42);
+}
+.omma-logo {
+    position: absolute;
+    width: 324px;
+    height: 84px;
+    left: 537px;
+    top: 16px;
+    background: url(omma-logo-white.png);
+}
+.menu-header {
+    position: absolute;
+    width: 1440px;
+    height: 48px;
+    left: 0px;
+    top: 121px;
+    background: #FFA000;
+}
+nav {
+    display: flex;
+    background-color: #FFA000;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #FDFDFD;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav  ul{
+    display: flex;
+}
+nav ul li{
+    font-size: 30;
+    font-weight: 700;
+    padding: 10px 45px 7px 30px;
+    list-style-type: none;
+}
+a .inicio {
+    position: absolute;
+    width: 57px;
+    height: 24px;
+    left: 550px;
+    top: 129px;
+}
+a .receita {
+    position: absolute;
+    width: 84px;
+    height: 24px;
+    left: 665px;
+    top: 129px;
+}
+a .contato {
+    position: absolute;
+    width: 82px;
+    height: 24px;
+    left: 807px;
+    top: 129px;
+}
+.corpo-principal img {
+    position: absolute;
+    width: 1440px;
+    height: 638.18px;
+    left: 0px;
+    top: 165px;
+    overflow-x: hidden;
+    background: linear-gradient(0deg, rgba(255, 160, 0, 0.3), rgba(255, 160, 0, 0.3)), url(image.png);
+}
+.text h1 {
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    left: 969px;
+    top: 331px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+.text1 {
+    position: absolute;
+    width: 830px;
+    height: 67px;
+    left: 305px;
+    top: 878px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFA000;
+}
+.img1 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 121px;
+    top: 1018px;
+    background: url(155976cf-b4a0-4b8c-9fe7-72d3a4b85511.jpg);
+}
+.t1 {
+    position: absolute;
+    width: 466px;
+    height: 71px;
+    left: 62px;
+    top: 1372px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+.btn1 {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 201px;
+    top: 1419px;
+    background: #176902;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+} 
+.img2 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 549px;
+    top: 1018px;
+    background: url(Bolo-de-banana-com-aveia-e-coco-de-liquidificador.jpg);
+}
+.t2 {
+    position: absolute;
+    width: 466px;
+    height: 71px;
+    left: 496px;
+    top: 1372px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+.btn2 {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 635px;
+    top: 1419px;
+    background: #176902;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+}
+.img3 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 974px;
+    top: 1018px;
+    background: url(16_18_12_830_Tabule.jpg);
+}
+.t3 {
+    position: absolute;
+    width: 466px;
+    height: 71px;
+    left: 915px;
+    top: 1372px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+.btn3 {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 1054px;
+    top: 1419px;
+    background: #176902;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.corpo1 img {
+    position: absolute;
+    width: 1440px;
+    height: 772px;
+    left: 0px;
+    top: 1625px;
+    background: linear-gradient(0deg, rgba(255, 193, 7, 0.4), rgba(255, 193, 7, 0.4)), url(image.png);
+}
+.corpo1 label h1 {
+    position: absolute;
+    width: 588px;
+    height: 96px;
+    left: 122px;
+    top: 1788px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.corpo1 label p {
+    position: absolute;
+    width: 424px;
+    height: 333px;
+    left: 123px;
+    top: 1957px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 119px;
+    left: 0px;
+    top: 2397px;
+    background: #FFC107;
+}
+.footer img {
+    position: absolute;
+    width: 324px;
+    height: 84px;
+    left: 10px;
+    top: 16px;
+    background: url(omma-logo-white.png);
+}
+.footer label p {
+    position: absolute;
+    width: 464px;
+    height: 22px;
+    left: 380px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.receita-text{
+    position: absolute;
+    width: 440px;
+    height: 61px;
+    left: 122px;
+    top: 269px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    text-transform: lowercase;
+    color: #FFA000;
+}
+
+.receita-img1 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 119px;
+    top: 399px;
+    background: url(155976cf-b4a0-4b8c-9fe7-72d3a4b85511.jpg);
+}
+.receita-t1 {
+    position: absolute;
+    width: 466px;
+    height: 71px;
+    left: 60px;
+    top: 753px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+.receita-btn1 {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 199px;
+    top: 800px;
+    background: #176902;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.receita-img2 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 547px;
+    top: 399px;
+    background: url(Bolo-de-banana-com-aveia-e-coco-de-liquidificador.jpg);
+}
+.receita-t2 {
+    position: absolute;
+    width: 466px;
+    height: 71px;
+    left: 494px;
+    top: 753px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+.receita-btn2 {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 633px;
+    top: 800px;
+    background: #176902;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.receita-img3 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 972px;
+    top: 399px;
+    background: url(16_18_12_830_Tabule.jpg);
+}
+.receita-t3 {
+    position: absolute;
+    width: 466px;
+    height: 71px;
+    left: 913px;
+    top: 753px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+.receita-btn3 {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 1052px;
+    top: 800px;
+    background: #176902;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.receita-img4 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 119px;
+    top: 964px;
+    background: url(moqueca-de-peixe-frutos-do-mar-1-768x512.jpg);
+}
+.receita-t4 {
+    position: absolute;
+    width: 466px;
+    height: 71px;
+    left: 60px;
+    top: 1318px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+.receita-btn4 {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 199px;
+    top: 1375px;
+    background: #176902;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.receita-img5 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 547px;
+    top: 964px;
+    background: url(download1.jpg);
+}
+.receita-t5 {
+    position: absolute;
+    width: 466px;
+    height: 71px;
+    left: 494px;
+    top: 1318px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+.receita-btn5 {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 633px;
+    top: 1375px;
+    background: #176902;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.receita-img6 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 972px;
+    top: 964px;
+    background: url(16_18_12_830_Tabule.jpg);
+}
+.receita-t6 {
+    position: absolute;
+    width: 466px;
+    height: 71px;
+    left: 913px;
+    top: 1318px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+.receita-btn6 {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 1052px;
+    top: 1375px;
+    background: #176902;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.receita-img7 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 125px;
+    top: 1529px;
+    background: url(155976cf-b4a0-4b8c-9fe7-72d3a4b85511.jpg);
+}
+.receita-t7 {
+    position: absolute;
+    width: 466px;
+    height: 71px;
+    left: 66px;
+    top: 1883px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+.receita-btn7 {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 205px;
+    top: 1930px;
+    background: #176902;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.receita-img8 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 553px;
+    top: 1529px;
+    background: url(Bolo-de-banana-com-aveia-e-coco-de-liquidificador.jpg);
+}
+.receita-t8 {
+    position: absolute;
+    width: 466px;
+    height: 71px;
+    left: 500px;
+    top: 1883px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+.receita-btn8 {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 639px;
+    top: 1930px;
+    background: #176902;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.receita-img9 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 978px;
+    top: 1529px;
+    background: url(16_18_12_830_Tabule.jpg);
+}
+.receita-t9 {
+    position: absolute;
+    width: 466px;
+    height: 71px;
+    left: 919px;
+    top: 1883px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+.receita-btn9 {
+        
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 1058px;
+    top: 1930px;
+    background: #176902;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    
+}
+.receita-footer {
+    position: absolute;
+    width: 1440px;
+    height: 119px;
+    left: 0px;
+    top: 2106px;
+    background: #FFC107;
+}
+.receita-footer img {
+    position: absolute;
+    width: 324px;
+    height: 84px;
+    left: 6px;
+    top: 16px;
+    background: url(omma-logo-white.png);
+}
+.receita-footer label p {
+    position: absolute;
+    width: 464px;
+    height: 22px;
+    left: 368px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.receitaint-text {
+    position: absolute;
+    width: 462px;
+    height: 61px;
+    left: 120px;
+    top: 272px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    text-transform: lowercase;
+    color: #FFA000;
+}
+.receitaint-img1 {
+    position: absolute;
+    width: 592px;
+    height: 311px;
+    left: 120px;
+    top: 361px;
+    background: #C4C4C4;
+}
+.receitaint-t1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 95px;
+    height: 31px;
+    left: 120px;
+    top: 697px;
+    border: 1px solid #176902;
+    border-radius: 47px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #176902;
+}
+.receitaint-t2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 196px;
+    height: 31px;
+    left: 234px;
+    top: 697px;
+    border: 1px solid #176902;
+    border-radius: 47px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #176902;
+}
+.receitaint-ing {
+    position: absolute;
+    width: 592px;
+    height: 480px;
+    left: 128px;
+    top: 786px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #000000;
+}
+.receitaint-ing strong {
+    font-weight: bold;
+}
+li iframe {
+    position: absolute;
+    width: 580px;
+    height: 317px;
+    left: 120px;
+    top: 1303px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(CapturadeTela2022-02-17às17.45.png);
+}
+.receitaint-mod {
+    position: absolute;
+    width: 592px;
+    height: 576px;
+    left: 128px;
+    top: 1655px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #000000;
+}
+.receitaint-mod strong {
+    font-weight: bold;
+}
+.receitaint-text1 {
+    position: absolute;
+    width: 321px;
+    height: 37px;
+    left: 904px;
+    top: 343px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    text-transform: lowercase;
+    color: #FFA000;
+}
+.receitaint-img2 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 904px;
+    top: 407px;
+    background: url(moqueca-de-peixe-frutos-do-mar-1-768x512.jpg);
+}
+.receitaint-img02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 345px;
+    height: 70px;
+    left: 904px;
+    top: 750px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #000000;
+}
+.receitaint-img3 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 904px;
+    top: 873px;
+    background: url(Bolo-de-banana-com-aveia-e-coco-de-liquidificador.jpg);
+}
+.receitaint-img03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 345px;
+    height: 70px;
+    left: 904px;
+    top: 1215px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+
+}
+.receitaint-img4 {
+    position: absolute;
+    width: 345px;
+    height: 342px;
+    left: 907px;
+    top: 1374px;
+    background: url(16_18_12_830_Tabule.jpg);
+}
+.receitaint-img04 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 345px;
+    height: 70px;
+    left: 907px;
+    top: 1714px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+.receitaint-footer{
+    position: absolute;
+    width: 1440px;
+    height: 119px;
+    left: 0px;
+    top: 2397px;
+    background: #FFC107;
+}
+.receitaint-footer img {
+    position: absolute;
+    width: 324px;
+    height: 84px;
+    left: 6px;
+    top: 16px;
+    background: url(omma-logo-white2.png);
+}
+.receitaint-footer label p {
+    position: absolute;
+    width: 464px;
+    height: 22px;
+    left: 368px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.contact-img {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1440px;
+    height: 405px;
+    left: 0px;
+    top: 165px;
+    background: url(img/contactimg.png);
+    border: 1px solid #000000;
+}
+.contact-img2 {
+    position: absolute;
+    width: 350px;
+    height: 771px;
+    left: 127px;
+    top: 667px;
+    background: url(img/contactimg02.png);
+    border-radius: 20px;
+}
+.contact {
+    box-sizing: border-box;
+    position: absolute;
+    width: 820px;
+    height: 766px;
+    left: 492px;
+    top: 672px;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    border-radius: 20px;
+}
+.contact h1 {
+    position: absolute;
+    width: 234.1px;
+    height: 69.93px;
+    margin-left: 33px;
+    margin-top: 64px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFC107;
+}
+#name {
+    box-sizing: border-box;
+    position: absolute;
+    width: 749.44px;
+    height: 48.65px;
+    top: 136.83px;
+    left: 4.56px;
+    margin-top: 66.89px;
+    margin-left: 37.56px;
+    text-indent: 20px;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+}
+#email {
+    box-sizing: border-box;
+    text-indent: 20px;
+    position: absolute;
+    width: 749.44px;
+    height: 48.65px;
+    top: 208.28px;
+    left: 4.56px;
+    margin-left: 37.56px;
+    margin-top: 71.96px;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+}
+#message {
+    box-sizing: border-box;
+    text-indent: 20px;
+    padding-top: 20px;
+    position: absolute;
+    width: 749.44px;
+    height: 293.42px;
+    top: 278.21px;
+    left: 4.56px;
+    margin-left: 37.56px;
+    margin-top: 70.93px;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+}
+#submit {
+    position: absolute;
+    Width: 164.18px;
+    Height:48.65px;
+    Top: 588px;
+    Left: 5px;
+    margin-left: 37.56px;
+    margin-top: 69.79px;
+    border: none;
+    cursor: pointer;
+    background: #FFC107;
+    border-radius: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+}
+.footer-contact {
+    position: absolute;
+    width: 1440px;
+    height: 119px;
+    left: 0px;
+    top: 1571px;
+    background: #FFC107;
+}
+.footer-contact img {
+    position: absolute;
+    width: 324px;
+    height: 84px;
+    left: 10px;
+    top: 16px;
+    background: url(omma-logo-white.png);
+}
+.footer-contact label p {
+    position: absolute;
+    width: 464px;
+    height: 22px;
+    left: 368px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
